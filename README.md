@@ -1,145 +1,41 @@
-<!-- ═══════════════════════════  HEADER  ═══════════════════════════ -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:00d4aa&height=220&section=header&text=Parth%20Gupta&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Systems%20%E2%80%A2%20Algorithms%20%E2%80%A2%20Distributed%20Computing&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
-</p>
+<!-- ═══════════════════════════════ HEADER ═══════════════════════════════ --> <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:00d4aa&height=230&section=header&text=Parth%20Gupta&fontSize=60&fontColor=ffffff&fontAlignY=36&desc=Machine%20Learning%20Research%20%C2%B7%20Distributed%20Systems%20%C2%B7%20Backend%20Engineering&descAlignY=57&descSize=17&animation=fadeIn" width="100%"/> </p> <p align="center"> <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=1000&color=00D4AA&center=true&vCenter=true&width=700&lines=ML+Research+Project+Lead+%E2%80%94+IIT+Bombay+collaboration;Diffusion+models+%2B+3D+Gaussian+Splatting+for+drone+vision;Raft+consensus+from+scratch+in+Java;Byte-level+packet+inspection+%E2%80%94+zero+third-party+parsers;CSE+%40+RBU+%C2%B7+CGPA+9.87+%C2%B7+Top+1%25+university-wide" alt="Typing SVG"/> </p> <p align="center"> <a href="https://www.linkedin.com/in/parth-gupta-b33028321"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <a href="mailto:parthg0504@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a> <a href="https://github.com/parth-g04"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a> <img src="https://komarev.com/ghpvc/?username=parth-g04&style=for-the-badge&color=00d4aa&label=PROFILE+VIEWS"/> </p> <br/> <!-- ═══════════════════════════════ AT A GLANCE ═══════════════════════════════ --> <table align="center"> <tr> <td align="center" width="170"><h2>9.87</h2><sub>CGPA / 10</sub></td> <td align="center" width="170"><h2>Top 1%</h2><sub>University-wide</sub></td> <td align="center" width="170"><h2>250+</h2><sub>DSA problems solved</sub></td> <td align="center" width="170"><h2>IIT&nbsp;B</h2><sub>Research collaboration</sub></td> </tr> </table> <!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
+> cat about.java
+java
+public final class ParthGupta implements Engineer, Researcher {
 
-<p align="center">
-  <a href="https://github.com/parth-g04">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=00D4AA&center=true&vCenter=true&width=620&lines=%24+whoami+%E2%86%92+CSE+%40+Ramdeobaba+University;Building+consensus+in+Java+%E2%80%94+one+term+at+a+time;Turning+O(n%C2%B2)+into+O(n+log+n);Data+%C2%B7+Algorithms+%C2%B7+Backend+Systems" alt="Typing SVG"/>
-  </a>
-</p>
+    String   education = "B.Tech CSE @ Ramdeobaba University, Nagpur (2024 – 2028)";
+    String   standing  = "CGPA 9.87 · Top 5 in CSE · Top 1% university-wide";
+    String   role      = "ML Research Project Lead — IIT Bombay (Collaborative Research)";
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:YOUR-EMAIL@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
-  <a href="https://leetcode.com/YOUR-HANDLE/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black"/></a>
-  <img src="https://komarev.com/ghpvc/?username=parth-g04&style=flat-square&color=00d4aa&label=profile+views"/>
-</p>
+    String[] worksAt   = { "Generative AI", "Computer Vision",
+                           "Distributed Systems", "Networking", "Concurrency" };
 
-<br/>
+    String   approach() { return "Build the hard parts from first principles — no black boxes."; }
 
-<!-- ═══════════════════════════  WHOAMI  ═══════════════════════════ -->
-## `> cat about.java`
-
-```java
-public final class ParthGupta implements Engineer {
-
-    private final String   university = "Ramdeobaba University, Nagpur";
-    private final String   degree     = "B.Tech — Computer Science & Engineering";
-    private final String[] focus      = { "Distributed Systems", "Algorithms", "Backend", "Data Science" };
-
-    @Override
-    public String currentlyBuilding() {
-        return "JRAFT — the Raft consensus algorithm, from scratch, in Java";
-    }
-
-    @Override
-    public String philosophy() {
-        return "Understand it deeply enough to build it from first principles.";
-    }
-
-    public boolean openTo(String opportunity) {
-        return List.of("Internships", "Open Source", "Research", "Collaboration")
-                   .contains(opportunity);
+    boolean  openTo(String s) {
+        return Set.of("SDE Internships", "ML Research", "Open Source").contains(s);
     }
 }
-```
-
-<!-- ═══════════════════════════  NOW  ═══════════════════════════ -->
-## `> tail -f now.log`
-
-```diff
-+ [building]   JRAFT — leader election, log replication & fault tolerance
-+ [studying]   Design & Analysis of Algorithms — greedy, DP, compression
-+ [exploring]  Data science workflows with Python & Jupyter
-! [goal-2026]  Ship one production-grade backend project end-to-end
-```
-
-<!-- ═══════════════════════════  STACK  ═══════════════════════════ -->
-## `> ls ~/toolbox`
-
-<table>
-  <tr>
-    <td align="center" width="140"><b>Languages</b></td>
-    <td><img src="https://skillicons.dev/icons?i=java,python,c,cpp,js&theme=dark"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Data &amp; ML</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-      <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>Databases</b></td>
-    <td><img src="https://skillicons.dev/icons?i=mysql&theme=dark"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Tooling</b></td>
-    <td><img src="https://skillicons.dev/icons?i=git,github,linux,idea,vscode&theme=dark"/></td>
-  </tr>
-</table>
-
-<!-- ═══════════════════════════  PROJECTS  ═══════════════════════════ -->
-## `> git log --featured`
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚙️ <a href="https://github.com/parth-g04/JRAFT">JRAFT</a></h3>
-      <p>An implementation of the <b>Raft consensus protocol</b> in Java — leader election, replicated logs and safety guarantees that keep a cluster consistent when nodes fail.</p>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Distributed_Systems-1f6feb?style=flat-square"/>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🗜️ <a href="https://github.com/parth-g04/DATA_COMPRESSION_DAA">Data Compression</a></h3>
-      <p>Lossless compression algorithms implemented and benchmarked in Python, applying algorithm-design techniques to real encoding problems.</p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Algorithms-00d4aa?style=flat-square"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📊 <a href="https://github.com/parth-g04/data-science-tools-notebook">Data Science Toolkit</a></h3>
-      <p>A hands-on notebook covering the core data-science tool chain — data wrangling, analysis and visualisation.</p>
-      <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Data_Science-8957e5?style=flat-square"/>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧮 <a href="https://github.com/parth-g04/DAA-Assignment">Algorithms in Java</a></h3>
-      <p>Design &amp; Analysis of Algorithms work — divide &amp; conquer, greedy and dynamic programming, with complexity analysis.</p>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-      <img src="https://img.shields.io/badge/DSA-f85149?style=flat-square"/>
-    </td>
-  </tr>
-</table>
-
-<!-- ═══════════════════════════  METRICS  ═══════════════════════════ -->
-## `> ./metrics --summary`
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=parth-g04&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00d4aa&icon_color=1f6feb&text_color=c9d1d9&include_all_commits=true&count_private=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=parth-g04&layout=compact&hide_border=true&bg_color=0d1117&title_color=00d4aa&text_color=c9d1d9&langs_count=6"/>
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=parth-g04&hide_border=true&background=0d1117&ring=00d4aa&fire=1f6feb&currStreakLabel=00d4aa&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e"/>
-</p>
-
-<!-- Snake animation: needs .github/workflows/snake.yml (see setup notes) -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/parth-g04/parth-g04/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/parth-g04/parth-g04/output/github-snake.svg"/>
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/parth-g04/parth-g04/output/github-snake-dark.svg"/>
-  </picture>
-</p>
-
-<!-- ═══════════════════════════  FOOTER  ═══════════════════════════ -->
-<p align="center">
-  <i>“Make it work, make it right, make it fast.”</i>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4aa,50:1f6feb,100:0d1117&height=120&section=footer"/>
-</p>
+<!-- ═══════════════════════════════ EXPERIENCE ═══════════════════════════════ -->
+> tail -f experience.log
+<table> <tr> <td> <h3>🛰️ Machine Learning Research Project Lead</h3> <b>IIT Bombay — Collaborative Research</b> &nbsp;·&nbsp; <i>Aug 2026 – Present</i><br/> <sub>Drone Data Augmentation Pipeline → <b>Layer 4: Generative Augmentation Engine</b></sub> </td> </tr> </table>
+diff
++ Leading the generative augmentation layer of a UAV computer-vision dataset pipeline
++ FLUX.1 Kontext diffusion → image-conditioned weather & lighting variations of drone scenes
++ Modular Python/PyTorch pipeline: 3D Gaussian Splatting renders → generation → metadata → auto-eval
++ MEt3R multi-view consistency baseline across 6 rendered views / 5 adjacent camera pairs
+! In progress: quality-control gate for structure, object consistency & annotation compliance
+<!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
+> git log --featured
+<!-- TODO: replace the DPI and Kisan Alert links with their exact repo URLs --> <table> <tr> <td width="50%" valign="top"> <h3>🛡️ <a href="https://github.com/parth-g04?tab=repositories">Deep Packet Inspection Engine</a></h3> <p>Multi-threaded DPI engine in <b>core Java</b> that parses Ethernet, IPv4 and TCP/UDP headers at byte level with <code>ByteBuffer</code>, no packet libraries.</p> <ul> <li>Layer-7 classification via <b>TLS Client Hello SNI</b>, identifying <b>17+ apps</b> inside encrypted HTTPS</li> <li>Reader → Load-Balancer → Fast-Path pipeline with consistent hashing and <code>ReentrantReadWriteLock</code> live rule updates</li> <li>Five-tuple flow tracking, IP/port/app/domain blocking, JUnit 5 tests</li> </ul> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/Networking-1f6feb?style=flat-square"/> <img src="https://img.shields.io/badge/Concurrency-8957e5?style=flat-square"/> <img src="https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white"/> </td> <td width="50%" valign="top"> <h3>⚙️ <a href="https://github.com/parth-g04/JRAFT">J-Raft — Distributed KV Store</a></h3> <p>Fault-tolerant, in-memory distributed key-value database built from scratch on the <b>Raft consensus algorithm</b>.</p> <ul> <li>Leader election, heartbeats and crash recovery</li> <li>Custom TCP protocol over Java Sockets</li> <li><code>ExecutorService</code> thread pool serving concurrent <code>SET</code> / <code>GET</code> / <code>DEL</code> without blocking</li> </ul> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/Distributed_Systems-1f6feb?style=flat-square"/> <img src="https://img.shields.io/badge/Sockets-00d4aa?style=flat-square"/> </td> </tr> <tr> <td width="50%" valign="top"> <h3>🌾 <a href="https://github.com/parth-g04?tab=repositories">Kisan Alert (Aagaah)</a></h3> <p>Agricultural crisis early-warning system — <i>team project, Google Hackathon</i>.</p> <ul> <li>6-component pipeline: Random Forest crop model + live Open-Meteo weather + MobileNetV2 disease detection</li> <li>Location-aware React dashboard on Node/Express APIs with Haversine spatial queries</li> <li>Groq Llama-3.1 layer: natural language → SQL, with relief advice in Telugu &amp; Hindi</li> </ul> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/LLM-f85149?style=flat-square"/> </td> <td width="50%" valign="top"> <h3>🛰️ Generative Augmentation Engine</h3> <p>Research work at IIT Bombay (see experience above): diffusion-based augmentation for UAV vision datasets, evaluated for multi-view consistency.</p> <ul> <li>FLUX.1 Kontext image-conditioned generation</li> <li>3D Gaussian Splatting scene renders as input</li> <li>MEt3R evaluation + automated quality gating</li> </ul> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Diffusion_Models-8957e5?style=flat-square"/> <img src="https://img.shields.io/badge/Computer_Vision-1f6feb?style=flat-square"/> </td> </tr> </table> <!-- ═══════════════════════════════ STACK ═══════════════════════════════ -->
+> ls ~/toolbox
+<table> <tr> <td align="center" width="150"><b>Languages</b></td> <td><img src="https://skillicons.dev/icons?i=java,py,c,js&theme=dark"/> <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" height="40"/></td> </tr> <tr> <td align="center"><b>ML &amp; Vision</b></td> <td><img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark"/><br/> <sub>Diffusion Models (FLUX.1 Kontext) · 3D Gaussian Splatting · MEt3R · MobileNetV2 · LLM Integration · NumPy · Pillow</sub></td> </tr> <tr> <td align="center"><b>Core CS</b></td> <td><sub>Data Structures &amp; Algorithms · OOP · Multithreading &amp; Concurrency · Socket Programming · TCP/IP · Distributed Systems · DBMS · Operating Systems</sub></td> </tr> <tr> <td align="center"><b>Web &amp; Data</b></td> <td><img src="https://skillicons.dev/icons?i=react,nodejs,express,postgres,sqlite&theme=dark"/></td> </tr> <tr> <td align="center"><b>Tools &amp; Cloud</b></td> <td><img src="https://skillicons.dev/icons?i=git,github,linux,bash,maven,gcp&theme=dark"/> <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" height="40"/></td> </tr> </table> <!-- ═══════════════════════════════ LEADERSHIP ═══════════════════════════════ -->
+> cat leadership.md
+Role	Organisation
+  Vice President	Entrepreneurship & Innovation Cell (EIC), RBU
+  Publicity Co-Lead	CSE Society, RBU
+  Co-Editor	CSE Society Technical Magazine
+  250+ problems	Data Structures & Algorithms on LeetCode
+<!-- ═══════════════════════════════ METRICS ═══════════════════════════════ -->
+> ./metrics --summary
+<p align="center"> <img height="170" src="https://github-readme-stats.vercel.app/api?username=parth-g04&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00d4aa&icon_color=1f6feb&text_color=c9d1d9&include_all_commits=true&count_private=true"/> <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=parth-g04&layout=compact&hide_border=true&bg_color=0d1117&title_color=00d4aa&text_color=c9d1d9&langs_count=6"/> </p> <p align="center"> <img src="https://streak-stats.demolab.com?user=parth-g04&hide_border=true&background=0d1117&ring=00d4aa&fire=1f6feb&currStreakLabel=00d4aa&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e"/> </p> <!-- Snake animation: needs .github/workflows/snake.yml --> <p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/parth-g04/parth-g04/output/github-snake-dark.svg"/> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/parth-g04/parth-g04/output/github-snake.svg"/> <img alt="contribution snake" src="https://raw.githubusercontent.com/parth-g04/parth-g04/output/github-snake-dark.svg"/> </picture> </p> <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ --> <p align="center"> <b>Let's build something hard together.</b><br/> <a href="mailto:parthg0504@gmail.com">parthg0504@gmail.com</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/parth-gupta-b33028321">LinkedIn</a> </p> <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4aa,50:1f6feb,100:0d1117&height=120&section=footer"/> </p>
